@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url("../fonts/static/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    /* Ele vai chamar primeiro o mais leve, ou seja, o 400 nesse caso */
+    src: url("../fonts/static/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");
+}

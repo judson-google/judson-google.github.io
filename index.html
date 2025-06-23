@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- "lang" indica o idioma do documento -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Googleee</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- "rel" indica o tipo de relação do arquivo com o documento, "href" indica o caminho do arquivo -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="hide-on-desktop"><img src="assets/svg/sino.svg" alt="sino" /></li>
+                <li><a class="link-desktop" href="https://mail.google.com">Gmail</a></li>
+                <li><a class="link-desktop" href="https://google.com/imghp">Imagens</a></li>
+                <li><img src="assets/svg/iconn.svg" alt="Apss" /></li>
+                <li id="profile"><img id="avatar" src="assets/img/foto.png" alt="Foto" /></li>
+            </ul>
+        </nav>
+        <div class="hide-on-desktop">
+            <button id="btn-menu">
+                <img src="assets/svg/menu.svg" alt="menu" />
+            </button>
+            <ul>
+                <li class="active">
+                    <a href="#">Todas</a>
+                </li>
+                <li>
+                    <a href="#">Imagens</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div>
+            <img src="assets/img/googleon.png" alt="Logo Google" id="logo" />
+            <form action="https://google.com/search">
+                <div>
+                    <div>
+                        <img src="assets/svg/search.svg" alt="Lupa" />
+                    </div>
+                    <input type="text" name="q" />
+                    <div class="input-icons">
+                        <img src="assets/img/keyboard.png" alt="Teclado" />
+                    </div>
+                    <div class="input-icons">
+                        <img src="assets/svg/microfone.svg" alt="Microfone" />
+                    </div>
+                    <div class="input-icons">
+                        <img src="assets/svg/camera.svg" alt="Camera" />
+                    </div>
+
+                </div>
+                <div class="actions">
+                    <button type="submit" class="btn-red">Pesquisa
+                        Google</button><!--class serve para identificar um elemento que pode ser repetido-->
+                    <button type="button" id="btn-tres">Estou com
+                        Sorte</button><!-- id serve para identificar um elemento único-->
+                </div>
+            </form>
+        </div>
+
+        <ul class="hide-on-desktop">
+            <li class="header">
+                <span>Pesquisa em alta</span>
+                <img src="assets/svg/dots.svg" alt="pontos" />
+            </li>
+            <li><img src="assets/svg/arrow.svg" alt="arrow" /><span>Peidos engarrafados</span></li>
+            <li><img src="assets/svg/arrow.svg" alt="arrow" /><span>Peidos engarrafados</span></li>
+            <li><img src="assets/svg/arrow.svg" alt="arrow" /><span>Peidos engarrafados</span></li>
+            <li><img src="assets/svg/arrow.svg" alt="arrow" /><span>Peidos engarrafados</span></li>
+            <li><img src="assets/svg/arrow.svg" alt="arrow" /><span>Peidos engarrafados</span></li>
+
+        </ul>
+    </main>
+    <footer>
+        <p>Brasil</p>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Publicidade</a></li>
+                <li><a href="#">Negócios</a></li>
+                <li><a href="#">Como Funciona a Pesquisa</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script defer src="assets/js/scripts.js"></script>
+</body>
+
+</html>
